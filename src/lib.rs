@@ -1,9 +1,11 @@
 extern crate regex;
-#[macro_use] extern crate lazy_static;
+#[macro_use]
+extern crate lazy_static;
 
 pub mod d01;
 pub mod d02;
 pub mod d03;
+pub mod d04;
 
 pub fn read_file(path: &str) -> std::io::Result<String> {
     use std::io::Read;
